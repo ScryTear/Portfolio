@@ -1,7 +1,57 @@
 
 
+html{
+    font-size: 16px;
+    display:flex;
+    height:100%;
+    width: 100%;
+}
+body{
+    background-color: #dddddd;
 
+}
 .hero{
     background-image: url('./img/portfolio-hero.png');
     background-size: cover; 
+    width: 100vw;
+    height: auto;
+
+}
+/* .title{
+    
+} */
+.article{
+    padding: 30px;
+    padding-top: 0;
+    justify-content: center;
+    
+}
+
+.column{
+    background-color: #ffcee1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.about{
+    background-color: #ceeeff;
+}
+
+.headerDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.contactLinks{
+    background-color: #def4ff;
 }
